@@ -21,6 +21,6 @@ class Principal{
 			}
 		}
 		
-		System.out.println("Você ganhou com " + tentativas + " tentativas");		
+		System.out.println("Parabéns você ganhou com " + tentativas + " tentativas");		
 	}
 }
