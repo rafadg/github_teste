@@ -4,17 +4,17 @@ class Principal{
 	public static void main(String[] args){
 		Scanner tec = new Scanner(System.in);
 		int n = 1 + new Random().nextInt(20);
-		int chute = 0;
+		int c = 0;
 		int tentativas = 0;
 		boolean naoEncontrou = true;
 		System.out.println("--Iniciando jogo--");	
 		while(naoEncontrou){
 			tentativas++;
 			System.out.println("Chute um numero: ");
-			chute = tec.nextInt();
-			if(chute == n){
+			c = tec.nextInt();
+			if(c == n){
 				naoEncontrou = false;
-			}else if(chute > n){
+			}else if(c > n){
 				System.out.println("Chute um numero menor");
 			}else{
 				System.out.println("Chute um numero maior");
