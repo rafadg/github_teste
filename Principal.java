@@ -5,11 +5,11 @@ class Principal{
 		Scanner tec = new Scanner(System.in);
 		int n = 1 + new Random().nextInt(20);
 		int c = 0;
-		int tentativas = 0;
+		int t = 0;
 		boolean naoEncontrou = true;
 		System.out.println("--Iniciando jogo--");	
 		while(naoEncontrou){
-			tentativas++;
+			t++;
 			System.out.println("Chute um numero: ");
 			c = tec.nextInt();
 			if(c == n){
@@ -21,6 +21,6 @@ class Principal{
 			}
 		}
 		
-		System.out.println("Parabéns você ganhou com " + tentativas + " tentativas");		
+		System.out.println("Parabéns você ganhou com " + t + " tentativas");		
 	}
 }
