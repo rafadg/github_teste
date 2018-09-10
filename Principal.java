@@ -5,7 +5,7 @@ class Principal{
 		Scanner tec = new Scanner(System.in);
 		int n = 1 + new Random().nextInt(20);
 		int chute = 0;
-		int tentativas = 0;
+		int te = 0;
 		boolean naoEncontrou = true;
 		System.out.println("--Iniciando novo jogo--");	
 		while(naoEncontrou){
@@ -21,6 +21,6 @@ class Principal{
 			}
 		}
 		
-		System.out.println("Parabéns você ganhou com " + tentativas + " tentativas");		
+		System.out.println("Parabéns você ganhou com " + te + " tentativas");		
 	}
 }
