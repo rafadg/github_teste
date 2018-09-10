@@ -7,7 +7,7 @@ class Principal{
 		int c = 0;
 		int t = 0;
 		boolean naoEncontrou = true;
-		System.out.println("--Iniciando jogo--");	
+		System.out.println("--Iniciando novo jogo--");	
 		while(naoEncontrou){
 			t++;
 			System.out.println("Chute um numero: ");
@@ -20,7 +20,6 @@ class Principal{
 				System.out.println("Chute um numero maior");
 			}
 		}
-		
 		System.out.println("Parabéns você ganhou com " + t + " tentativas");		
 	}
 }
