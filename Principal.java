@@ -7,7 +7,7 @@ class Principal{
 		int chute = 0;
 		int tentativas = 0;
 		boolean naoEncontrou = true;
-		System.out.println("--Iniciando jogo--");	
+		System.out.println("--Iniciando novo jogo--");	
 		while(naoEncontrou){
 			tentativas++;
 			System.out.println("Chute um numero: ");
